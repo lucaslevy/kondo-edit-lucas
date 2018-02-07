@@ -1,0 +1,33 @@
+header {
+
+    .m-brand__logo-wrapper {
+        background-image: url('../images/logo-80x51.png') !important;
+        width: 80px;
+        height: 51px;
+    }
+
+    .m-dropdown__header {
+        background-color: #7948e1 !important;
+    }
+
+    .m-card-user__details {
+        .m-card-user__email {
+            color: #d9dae3 !important;
+        }
+    }
+
+    .m-brand.m-brand--skin-dark {
+        background: #fff;
+    }
+
+   @media (min-width: 993px) {
+        .m-header-head {
+            -webkit-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1) !important;
+            -moz-box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1) !important;
+            box-shadow: 0px 1px 15px 1px rgba(69, 65, 78, 0.1) !important;
+        }
+    }
+
+}
+
+

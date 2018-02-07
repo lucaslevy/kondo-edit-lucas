@@ -1,0 +1,23 @@
+body {
+    background-color: #d9dadf
+}
+
+.m-body {
+    background-color: #d9dadf
+}
+
+.border-radius__2px {
+    border-radius: 2px !important;
+}
+
+.width-full {
+    width: 100% !important;
+}
+
+.height-full {
+    height: 100% !important;
+}
+
+.breadcrubms__item::before {
+    content: '-';
+}

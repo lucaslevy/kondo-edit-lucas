@@ -1,0 +1,39 @@
+.m-login {
+
+    background-image: url('../images/bg-3.jpg') !important;
+
+    button {
+        border-radius: 2px !important; 
+    }
+
+    a {
+        &.btn {
+            border-radius: 2px !important; 
+        }
+    }
+
+    .m-login__logo a {
+        background-image: url('../images/logo-100x65.png') !important;
+        width: 100px;
+        height: 64px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .m-login__signup {
+        display: block !important;
+    }
+
+    .m-login__forget-password {
+        display: block !important;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+   .form-control {
+       border-bottom: none !important;
+       width: 100% !important;
+   }
+}
